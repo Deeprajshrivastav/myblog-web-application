@@ -8,11 +8,18 @@
 - Forgot Password Page
 <img width="960" alt="ForgotPassword" src="https://user-images.githubusercontent.com/65335438/123752839-d7cbf100-d8d6-11eb-81d4-e345fe4e99c0.png">
 - Home page
-- <img width="960" alt="Home" src="https://user-images.githubusercontent.com/65335438/123752899-e914fd80-d8d6-11eb-9883-630b375ee5c0.png">
+<img width="960" alt="Home" src="https://user-images.githubusercontent.com/65335438/123752899-e914fd80-d8d6-11eb-9883-630b375ee5c0.png">
 - Post page
 <img width="960" alt="Post" src="https://user-images.githubusercontent.com/65335438/123753237-414bff80-d8d7-11eb-852d-372d8923d014.png">
 - New Post Create page
  <img width="960" alt="Newpost" src="https://user-images.githubusercontent.com/65335438/123753402-6cceea00-d8d7-11eb-8637-5d00944c9959.png">
- - Profile Update Page
+- Profile Update Page
  <img width="960" alt="profileUpdate" src="https://user-images.githubusercontent.com/65335438/123753475-86703180-d8d7-11eb-821c-b094d7d4c56a.png">
+ - User Profile Page
+ <img width="960" alt="userprofile" src="https://user-images.githubusercontent.com/65335438/123753894-f2529a00-d8d7-11eb-909c-2a2e1a1cd020.png">
+ - Logout Page
+ <img width="960" alt="Logout" src="https://user-images.githubusercontent.com/65335438/123753959-01d1e300-d8d8-11eb-9424-5f6787ec7234.png">
+ - Admin Page
+ <img width="960" alt="admin" src="https://user-images.githubusercontent.com/65335438/123753926-f8e11180-d8d7-11eb-9db2-b5698979bb56.png">
+
  
