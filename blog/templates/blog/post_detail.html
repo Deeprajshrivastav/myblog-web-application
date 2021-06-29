@@ -1,0 +1,70 @@
+{% extends "blog/base.html "%}
+{% block content %}
+
+    <article class="media content-section">
+        <img class="rounded-circle article-img" src="{{ post.author.profile.image.url }}" alt="">
+        <div class="media-body">
+            <div class="article-metadata">
+              <a class="mr-2" href="{% url 'user-posts' post.author.username %}">{{ post.author }}</a>
+
+              <small class="text-muted">{{ post.dat_posted|date:"F d, Y" }}</small>
+                {% if post.author == user %}
+                    <div>
+                        <a class="btn btn-secondary btn-sm mt-1 mb-1 " href="{% url 'post-update' post.id %}">Update</a>
+                        <a class="btn btn-danger btn-sm mt-1 mb-1 " href="{% url 'post-delete' post.id %}">Delete</a>
+                    </div>
+
+                {% endif %}
+            </div>
+            <h2 class="article-title">{{ post.title }}</h2>
+            <p class="article-content">{{ post.content }}</p>
+          </div>
+
+        </article>
+
+  </article>
+
+    <div class="content-section">
+        <legend class="border-bottom"> Add Comment:</legend>
+         {% if user.is_authenticated %}
+
+      <form method="POST" id="commentForm" >
+        {% csrf_token %}
+        <fieldset class="form-group">
+          <img class="img-thumbnail article-img" src="{{ user.profile.image.url }}">
+          <input type="text" id="commentIn" name="comment"
+          v-model="currentComment" placeholder="Your comment..." required>
+
+          <button id="commentBtn" name="comment_button"  class="btn btn-outline-info" type="submit">Comment</button>
+        </fieldset>
+      </form>
+
+    {% else %}
+
+      <div>
+        <a class="mb-2 mt-1" href="{% url 'login' %}">Login</a> to comment.<br>
+      </div>
+    {% endif %}
+
+    </div>
+{% if comments_list %}
+    <legend class="border-bottom" id="h1">Comments:</legend>
+    <div class="content-section">
+        <div id="commentDiv">
+            {% for cmnt in comments_list %}
+                <img class="img-thumbnail article-img"
+                src="{{cmnt.commentator.profile.image.url }}">
+                <a class="mr-2" >{{ cmnt.commentator }}</a>
+                <small class="text-muted">{{ cmnt.date_added|date:"F d, Y" }}</small>
+                {% if user == cmnt.commentator %}
+                    <small> <a href="{% url 'comment-delete' cmnt.id %}">delete</a> </small>
+                {% endif %}
+                <p class="article-content">{{ cmnt.comment }}</p>
+                <hr>
+            {% endfor %}
+        </div>
+    </div>
+{% endif %}
+
+
+{% endblock content  %}
