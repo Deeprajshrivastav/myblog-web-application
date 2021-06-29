@@ -1,5 +1,5 @@
 # myblog-web-application
-### A full feature responsive Blog Application. An easy-to-use, free blogging application with the functionality of User login, logout, change password, forgot password and update user detail, update profile image,Crete new post, Delete post, Update Post, Comment on post, delete, comment and additional features available for a fee.
+### A full feature responsive Blog Application in django. An easy-to-use, free blogging application with the functionality of User login, logout, change password, forgot password and update user detail, update profile image,Crete new post, Delete post, Update Post, Comment on post, delete, comment and additional features available for a fee.
 ## Snap of myblog
 - Registrations page
   <img width="960" alt="Registration" src="https://user-images.githubusercontent.com/65335438/123752738-bb2fb900-d8d6-11eb-965c-2abfc493f942.png">
