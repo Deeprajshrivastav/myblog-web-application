@@ -7,5 +7,5 @@
 <img width="960" alt="login" src="https://user-images.githubusercontent.com/65335438/123752367-58d6b880-d8d6-11eb-887e-0b2ccc123945.png">
 - Forgot Password Page
  <img width="960" alt="ForgotPassword" src="https://user-images.githubusercontent.com/65335438/123752839-d7cbf100-d8d6-11eb-81d4-e345fe4e99c0.png">
- - Home page
+- Home page
  <img width="960" alt="Home" src="https://user-images.githubusercontent.com/65335438/123752899-e914fd80-d8d6-11eb-9883-630b375ee5c0.png">
