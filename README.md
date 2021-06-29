@@ -16,7 +16,7 @@
 - Profile Update Page
   <img width="960" alt="profileUpdate" src="https://user-images.githubusercontent.com/65335438/123753475-86703180-d8d7-11eb-821c-b094d7d4c56a.png">
  - User Profile Page
-   <img width="960" alt="userprofile" src="https://user-images.githubusercontent.com/65335438/123753894-f2529a00-d8d7-11eb-909c-2a2e1a1cd020.png">
+   <img width="960" alt="userprofile" src="https://user-images.githubusercontent.com/65335438/123754573-ace29c80-d8d8-11eb-87c5-339e80b1d281.png">
 - Logout Page
   <img width="960" alt="Logout" src="https://user-images.githubusercontent.com/65335438/123753959-01d1e300-d8d8-11eb-9424-5f6787ec7234.png">
 - Admin Page
